@@ -68,7 +68,7 @@ export default function NavMobile({
             ))}
           </div>
           <ScrollLink to="reservation" smooth offset={-150}>
-            <Button variant="orange">Book a table</Button>
+            <Button variant="orange">احجز طاولة</Button>
           </ScrollLink>
         </div>
       </aside>

@@ -31,17 +31,17 @@ export default function ReservationForm() {
       <div className="grid gap-[30px]">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-[30px]">
           <div>
-            <Label htmlFor="firstname">first name</Label>
+            <Label htmlFor="firstname">الاسم</Label>
             <Input id="firstname" type="text" />
           </div>
           <div>
-            <Label htmlFor="lastname">last name</Label>
+            <Label htmlFor="lastname">اسم العائلة</Label>
             <Input id="lastname" type="text" />
           </div>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-[30px]">
           <div>
-            <Label>date</Label>
+            <Label>التاريخ</Label>
             {/* Radix Popover wraps trigger (button) and content (Calendar); asChild forwards props to Button */}
             <Popover>
               <PopoverTrigger asChild>
@@ -50,7 +50,7 @@ export default function ReservationForm() {
                   className={cn("w-full justify-start text-left font-normal")}
                 >
                   <CalendarIcon className="mr-2 h-4 w-4" />
-                  {date ? format(date, "PPP") : <span>Pick a date</span>}
+                  {date ? format(date, "PPP") : <span>اختر تاريخاً</span>}
                 </Button>
               </PopoverTrigger>
               <PopoverContent className="w-auto p-0">
@@ -64,11 +64,11 @@ export default function ReservationForm() {
             </Popover>
           </div>
           <div>
-            <Label>person</Label>
+            <Label>شخص</Label>
             {/* Radix Select: trigger shows placeholder/value; SelectContent lists options (1–5 people) */}
             <Select>
               <SelectTrigger className="w-full">
-                <SelectValue placeholder="How many people ?" />
+                <SelectValue placeholder=" كم شخص" />
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
@@ -84,7 +84,7 @@ export default function ReservationForm() {
           </div>
         </div>
         <Button className="uppercase w-full xl:w-auto xl:self-end">
-          Book a table
+          احجز طاولة
         </Button>
       </div>
     </form>

@@ -22,22 +22,14 @@ export default function About() {
         viewport={{ once: false, amount: 0.2 }}
         className="xl:pl-[135px]"
       >
-        <h1 className="mb-9">Let&apos;s Talk About W&apos;Food</h1>
+        <h1 className="mb-9"> دعنا &apos;نتحدث عن &apos;أكلاتي</h1>
         <p className="mb-8">
-          Mauris nam et ipsum ipsum in. Risus nullam in sit mi est justo at
-          fringilla. Consequat ac fringilla quis enim, sit ipsum. Laoreet eget
-          metus morbi convallis gravida elementum facilisis. Neque enim quis
-          fusce amet. Pellentesque netus vel eu
+          أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق 
         </p>
         <p className="mb-10">
-          posuere ultrices facilisi. Senectus velit lobortis velit arcu varius
-          lectus mattis. Dictum aenean duis aliquet Tortor purus egestas urna
-          scelerisque vel ornare lectus ultricies. Nisi, eu ut ultricies enim
-          enim amet porttitor. Volutpat ac tellus volutpat eget volutpat orci
-          enim, ut a. Turpis adipiscing eleifend dignissim viverra euismod
-          ultrices.
+     أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق أكلاتي أطيب مذاق 
         </p>
-        <Button>Read more</Button>
+        <Button>إقرأالمزيد</Button>
       </motion.div>
       <motion.div
         variants={fadeIn("left", 0.4)}

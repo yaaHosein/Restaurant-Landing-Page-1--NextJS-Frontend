@@ -27,53 +27,48 @@ export default function Footer() {
           </div>
           <div className="flex-1 grid grid-cols-1 xl:grid-cols-3 gap-[50px] mb-8 xl:mb-16">
             <div>
-              <h4 className="font-semibold mb-5">Blog</h4>
+              <h4 className="font-semibold mb-5">مدونة</h4>
               <ul className="flex flex-col gap-y-6 text-sm">
                 <li>
                   <Link href="/">
-                    Sit pellestesque neque egestas quis dolor, sit.
+المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد
                   </Link>
                 </li>
                 <li>
                   <Link href="/">
-                    Arcu et tincidunt dictum nunc ut nisi, dolor euismod
+المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزي
                   </Link>
                 </li>
                 <li>
                   <Link href="/">
-                    Tempor, volutpat nulla sed posuere orci ac diam integer
+المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزي
                   </Link>
                 </li>
                 <li>
                   <Link href="/">
-                    Ultrices consectetur orci ultrices viverra mauris laoreet
-                    tincidunt at
+المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزي
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-5">New Item</h4>
+              <h4 className="font-semibold mb-5">عنصر جديد</h4>
               <ul className="flex flex-col gap-y-6 text-sm">
                 <li>
                   <Link href="/">
-                    Sit pellestesque neque egestas quis dolor, sit.
-                  </Link>
+                    المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزي                  </Link>
                 </li>
                 <li>
                   <Link href="/">
-                    Arcu et tincidunt dictum nunc ut nisi, dolor euismod
-                  </Link>
+                    المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزي                  </Link>
                 </li>
                 <li>
                   <Link href="/">
-                    Tempor, volutpat nulla sed posuere orci ac diam integer
-                  </Link>
+                    المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزي                 </Link>
                 </li>
                 <li>
                   <Link href="/">
-                    Ultrices consectetur orci ultrices viverra mauris laoreet
-                    tincidunt at
+المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد المزيد 
                   </Link>
                 </li>
               </ul>
@@ -96,7 +91,7 @@ export default function Footer() {
         </div>
         <div className="py-4 border-t border-white/10">
           <p className="text-white/60 text-center text-sm">
-            &copy; {new Date().getFullYear()}. All reserved.
+            &copy; {new Date().getFullYear()} جميع الحقوق محفوظة
           </p>
         </div>
       </div>

@@ -25,7 +25,7 @@ export default function Reservation() {
         viewport={{ once: false, amount: 0.2 }}
         className="bg-black w-full xl:max-w-[868px] min-h-[518px] p-8 md:p-14 xl:p-16"
       >
-        <h2 className="text-white mb-9 capitalize">Book a table</h2>
+        <h2 className="text-white mb-9 capitalize">احجز طاولة</h2>
         <ReservationForm />
       </motion.div>
     </motion.section>
