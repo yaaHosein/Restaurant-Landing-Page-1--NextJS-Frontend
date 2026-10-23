@@ -26,7 +26,7 @@ export default function Hero() {
               viewport={{ once: false, amount: 0.4 }}
               className="text-white mb-7"
             >
-              A taste of local <br /> flavours
+              مذاق من  <br /> النّكهات
             </motion.h1>
             <motion.p
               variants={fadeIn("down", 0.4)}
@@ -35,7 +35,7 @@ export default function Hero() {
               viewport={{ once: false, amount: 0.4 }}
               className="text-white font-semibold mb-7"
             >
-              by: <span className="text-orange">Wildan Wari</span>
+              بواسطة:  <span className="text-orange">صادق رجائي  </span>
             </motion.p>
             <motion.p
               variants={fadeIn("down", 0.6)}
@@ -44,9 +44,7 @@ export default function Hero() {
               viewport={{ once: false, amount: 0.4 }}
               className="text-white mb-12 max-w-lg mx-auto xl:max-w-none xl:mx-0"
             >
-              Posuere amet, sed vitae condimentum accumsan aliquam et, aliquam.
-              Tellus in fusce vel gravida lobortis diam dis ut. Bibendum
-              senectus urna, in ultricies sed lorem natoque. Risus pharetra
+           اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية اكلات لذيذة , اكلات صحية 
             </motion.p>
             <motion.div
               variants={fadeIn("down", 0.8)}
@@ -54,7 +52,7 @@ export default function Hero() {
               whileInView="show"
               viewport={{ once: false, amount: 0.4 }}
             >
-              <Button>Let&apos;s eat</Button>
+              <Button>دعنا &apos;نأكل </Button>
             </motion.div>
           </div>
           {/* Hero plate image: fades in from bottom (up), hidden on mobile, absolute on xl */}

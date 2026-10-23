@@ -6,8 +6,8 @@ import type { MenuItem } from "@/types";
 
 /** Menu items data - in a real app this would come from a CMS or API */
 export const menuItems: MenuItem[] = [
-  { img: "/menu/item-1.png", title: "Stilton and pancetta penne", price: "$24.00" },
-  { img: "/menu/item-2.png", title: "Chorizo and avocado spaghetti", price: "$24.00" },
-  { img: "/menu/item-3.png", title: "Crayfish and black pepper toastie", price: "$26.00" },
-  { img: "/menu/item-4.png", title: "Orange and banana cookies", price: "$12.00" },
+  { img: "/menu/item-1.png", title: "بطاطا بالبيض", price: "250 دينار " },
+  { img: "/menu/item-2.png", title: "لحم عجين", price: "250 دينار " },
+  { img: "/menu/item-3.png", title: "فريز مع مربى", price: "250 دينار " },
+  { img: "/menu/item-4.png", title: "بيض مع جزر", price: " دينار 250" },
 ];

@@ -42,7 +42,7 @@ export default function Header() {
           />
           <ScrollLink to="reservation" smooth>
             <Button variant="orange" size="sm">
-              Book a table
+              احجز طاولة
             </Button>
           </ScrollLink>
           <NavMobile
