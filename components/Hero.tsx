@@ -35,7 +35,7 @@ export default function Hero() {
               viewport={{ once: false, amount: 0.4 }}
               className="text-white font-semibold mb-7"
             >
-              بواسطة:  <span className="text-orange">صادق رجائي  </span>
+              بواسطة :  <span className="text-orange"> صادق رجائي  </span>
             </motion.p>
             <motion.p
               variants={fadeIn("down", 0.6)}
