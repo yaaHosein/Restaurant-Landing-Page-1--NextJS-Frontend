@@ -33,7 +33,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Next.js Link + Image for client-side nav and optimized image */}
           <Link href="/">
-            <Image src="/logo.svg" width={75} height={30} alt="W'Food logo" />
+            <Image src="/أكلاتي..JPG" width={75} height={30} alt="أكلاتي logo" style={{borderRadius: "10px"}} />
           </Link>
           {/* Desktop nav: hidden on small screens, visible from xl. ScrollLink scrolls to #reservation. */}
           <Nav

@@ -97,7 +97,7 @@ export const metadata: Metadata = {
         alt: "W'Food Restaurant - A Taste of Local Flavours",
       },
       {
-        url: "/logo.svg",
+        url: "/أكلاتي..JPG",
         width: 90,
         height: 36,
         alt: "W'Food Restaurant Logo",

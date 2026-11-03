@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="flex flex-col justify-between xl:flex-row">
           <div className="w-[300px] mb-8 xl:mb-0">
             <Link href="/">
-              <Image src="/logo.svg" width={90} height={36} alt="W'Food" />
+              <Image src="/أكلاتي..JPG" width={90} height={36} alt="W'Food" />
             </Link>
           </div>
           <div className="flex-1 grid grid-cols-1 xl:grid-cols-3 gap-[50px] mb-8 xl:mb-16">
