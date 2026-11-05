@@ -125,7 +125,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" style={{ backgroundColor: "#e5e5e5" }}>
+    <html  lang="ar" dir="rtl" style={{ backgroundColor: "#e5e5e5" }}>
       <body className={`${lora.variable} ${poppins.variable}`} style={{ backgroundColor: "#e5e5e5" }}>{children}</body>
     </html>
   );
