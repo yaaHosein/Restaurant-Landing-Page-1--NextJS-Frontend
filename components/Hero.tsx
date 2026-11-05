@@ -61,7 +61,7 @@ export default function Hero() {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.1 }}
-            className="hidden xl:flex xl:absolute xl:top-[200px] xl:right-0"
+            className="hidden xl:flex xl:absolute xl:top-[200px] xl:left-0"
           >
             <Image
               src="/hero/plate.png"
