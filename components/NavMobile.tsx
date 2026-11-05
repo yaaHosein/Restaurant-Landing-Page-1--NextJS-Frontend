@@ -44,7 +44,7 @@ export default function NavMobile({
           <button
             type="button"
             onClick={() => setIsOpen(false)}
-            className="cursor-pointer text-4xl text-white absolute w-10 h-10 left-8 bg-green flex items-center justify-center border-0"
+            className="cursor-pointer text-4xl text-white absolute w-10 h-10 right-8 bg-green flex items-center justify-center border-0"
             aria-label="Close menu"
           >
             <IoCloseOutline />
