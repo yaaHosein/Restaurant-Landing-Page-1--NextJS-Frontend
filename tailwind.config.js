@@ -43,7 +43,7 @@ export default {
       backgroundImage: {
         hero: "url(/hero/bg.png)",
         menu: "url(/menu/bg.png)",
-        reservation: "url(/reservation/bg.png)",
+        reservation: "url(/reservation/image.webp)",
         footer: "url(/footer/bg.png)",
       },
       boxShadow: {
