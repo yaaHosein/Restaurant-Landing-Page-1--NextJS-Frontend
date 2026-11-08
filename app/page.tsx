@@ -6,7 +6,6 @@ import About from "@/components/About";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import MapDynamic from "@/components/MapDynamic";
 import Menu from "@/components/Menu";
 import Reservation from "@/components/Reservation";
 
@@ -18,7 +17,6 @@ export default function Home() {
       <Menu />
       <Reservation />
       <About />
-      <MapDynamic />
       <Footer />
     </main>
   );
