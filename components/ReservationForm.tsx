@@ -67,7 +67,7 @@ export default function ReservationForm() {
             <Label>شخص</Label>
             {/* Radix Select: trigger shows placeholder/value; SelectContent lists options (1–5 people) */}
             <Select>
-              <SelectTrigger className="w-full">
+              <SelectTrigger className="w-full justify-end">
                 <SelectValue placeholder=" كم شخص" />
               </SelectTrigger>
               <SelectContent>
