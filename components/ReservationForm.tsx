@@ -82,7 +82,7 @@ export default function ReservationForm() {
           </div>
         </div>
         <Button className="uppercase w-full xl:w-auto xl:self-end">
-          احجز طاولة
+          |إحجز طاولة
         </Button>
       </div>
     </form>
