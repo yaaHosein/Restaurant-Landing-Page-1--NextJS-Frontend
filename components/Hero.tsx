@@ -12,7 +12,7 @@ import { Button } from "./ui/button";
 export default function Hero() {
   return (
     <section
-      className="bg-hero bg-no-repeat relative xl:bg-cover xl:h-[1098px] py-40 pb-32 xl:py-0"
+      className="bg-hero bg-no-repeat relative xl:bg-cover  py-40 pb-32 xl:py-0"
       id="home"
     >
       <div className="container mx-auto">
