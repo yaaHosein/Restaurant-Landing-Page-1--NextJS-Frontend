@@ -8,7 +8,7 @@ import { fadeIn } from "@/lib/variants";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import { IoIosArrowRoundBack } from "react-icons/io";
 import { menuItems } from "@/data/menu";
 
 export default function Menu() {
@@ -32,7 +32,7 @@ export default function Menu() {
             className="text-green flex justify-center xl:justify-end items-center mb-16"
           >
             اعرض الجميع
-            <IoIosArrowRoundForward className="text-3xl" />
+            <IoIosArrowRoundBack className="text-3xl" />
           </Link>
         </motion.div>
         <motion.div
