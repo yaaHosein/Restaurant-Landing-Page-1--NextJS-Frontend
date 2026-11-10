@@ -50,7 +50,7 @@ export default function ReservationForm() {
                   className={cn("w-full justify-start text-right font-normal")}
                 >
                   {date ? format(date, "PPP") : <span>اختر تاريخاً</span>}
-                    <CalendarIcon className="mr-2 h-4 w-4" />
+                  <CalendarIcon className="mr-2 h-4 w-4" />
                 </Button>
               </PopoverTrigger>
               <PopoverContent className="w-auto p-0">
@@ -64,28 +64,20 @@ export default function ReservationForm() {
             </Popover>
           </div>
           <div>
-            <Label>شخص</Label>
+            <Label>عدد الأشحاص</Label>
             {/* Radix Select: trigger shows placeholder/value; SelectContent lists options (1–5 people) */}
             <Select>
-          
-                
               <SelectContent>
-          
                 <SelectGroup>
-                   
                   <SelectLabel>People</SelectLabel>
                   <SelectItem value="1">1</SelectItem>
                   <SelectItem value="2">2</SelectItem>
                   <SelectItem value="3">3</SelectItem>
                   <SelectItem value="4">4</SelectItem>
                   <SelectItem value="5">5</SelectItem>
-                  
                 </SelectGroup>
-                
               </SelectContent>
-                  <SelectTrigger className="w-full justify-end text-justify">
-                    <SelectValue placeholder=" كم شخص" className=" text-center text-justify" />
-              </SelectTrigger>
+              <SelectTrigger className="w-full justify-end"></SelectTrigger>
             </Select>
           </div>
         </div>
