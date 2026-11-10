@@ -35,7 +35,7 @@ export default function ReservationForm() {
             <Input id="firstname" type="text" />
           </div>
           <div>
-            <Label htmlFor="lastname">اسم العائلة</Label>
+            <Label htmlFor="lastname">إسم العائلة</Label>
             <Input id="lastname" type="text" />
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function ReservationForm() {
           </div>
         </div>
         <Button className="uppercase w-full xl:w-auto xl:self-end">
-          |إحجز طاولة
+      إحجز طاولة
         </Button>
       </div>
     </form>
