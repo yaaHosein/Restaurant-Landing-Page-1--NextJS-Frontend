@@ -17,7 +17,7 @@ export default function Hero() {
     >
       <div className="container mx-auto">
         <div className="flex items-center xl:h-[960px]">
-          <div className="w-full xl:max-w-[460px] text-center xl:text-left">
+          <div className="w-full xl:max-w-[460px] text-center xl:text-right">
             {/* Staggered fade-in from bottom: direction "down", delay 0.2s. viewport.amount = 0.4 triggers when 40% visible. */}
             <motion.h1
               variants={fadeIn("down", 0.2)}
