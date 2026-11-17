@@ -12,8 +12,7 @@ import { Button } from "./ui/button";
 export default function About() {
   return (
     <section
-    dir="rtl"
-      className="grid grid-cols-1 xl:grid-cols-2 gap-x-[74px] p-8 md:p-12 xl:p-0 items-center ms-8 xl:ms-0"
+      className="grid grid-cols-1 xl:grid-cols-2 gap-x-[74px] p-8 md:p-12 xl:p-0 items-center"
       id="about"
     >
       <motion.div
