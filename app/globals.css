@@ -14,7 +14,7 @@
   }
   body {
     @apply font-poppins bg-body text-black tracking-[0.5px];
-    direction: rtl
+    direction: rtl;
   }
   /* Headings use Lora; sizes tuned for hero/section titles */
   h1,

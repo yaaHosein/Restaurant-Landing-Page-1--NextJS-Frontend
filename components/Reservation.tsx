@@ -23,9 +23,9 @@ export default function Reservation() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.2 }}
-        className="bg-black w-full xl:max-w-[868px] min-h-[518px] p-8 md:p-14 xl:p-16"
+        className="bg-black w-450 xl:max-w-[868px]  xl:p-10 rounded-xl xl:mr-20 xl:mb-20"
       >
-        <h2 className="text-white mb-9 capitalize">إحجز طاولة</h2>
+        <h2 className="text-white mb-8 capitalize">إحجز طاولة</h2>
         <ReservationForm />
       </motion.div>
     </motion.section>
