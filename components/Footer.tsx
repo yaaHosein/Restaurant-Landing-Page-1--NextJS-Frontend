@@ -73,7 +73,7 @@ export default function Footer() {
         </div>
         <div className="py-4 border-t border-white/10">
           <p className="text-white/60 text-center text-sm">
-            &copy;جميع الحقوق محفوظة {new Date().getFullYear()} 
+          جميع الحقوق محفوظة   &copy; {new Date().getFullYear()} 
           </p>
         </div>
       </div>
