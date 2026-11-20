@@ -42,7 +42,7 @@ export default {
       },
       backgroundImage: {
         hero: "url(/hero/bg.png)",
-        menu: "url(/menu/bg.png)",
+        // menu: "url(/menu/bg.png)",
         reservation: "url(/reservation/image.png)",
         footer: "url(/footer/bg.png)",
       },
