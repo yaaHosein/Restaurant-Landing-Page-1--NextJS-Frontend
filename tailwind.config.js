@@ -41,7 +41,7 @@ export default {
         poppins: ["var(--font-poppins)", "Poppins", "sans-serif"],
       },
       backgroundImage: {
-        hero: "url(/hero/13.png)",
+        hero: "url(/hero/122.png)",
         // menu: "url(/menu/bg.png)",
         reservation: "url(/reservation/image.png)",
         footer: "url(/footer/bg.png)",

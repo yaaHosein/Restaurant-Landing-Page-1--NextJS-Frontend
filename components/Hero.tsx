@@ -81,9 +81,9 @@ export default function Hero() {
         className="hidden xl:flex xl:relative xl:-top-36"
       >
         <Image
-          src="/hero/coffee.png"
-          width={386}
-          height={404}
+          src="/hero/vecteezy_lush-tropical-garden-path-with-pink-flowers_52339447.png.jpg"
+          width={500}
+          height={480}
           alt="Coffee"
         />
       </motion.div>
